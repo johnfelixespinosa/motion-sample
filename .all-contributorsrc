@@ -1,0 +1,39 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "andrewmcodes",
+      "name": "Andrew Mason",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18423853?v=4",
+      "profile": "https://www.andrewm.codes",
+      "contributions": [
+        "code",
+        "ideas",
+        "infra",
+        "maintenance",
+        "review",
+        "question"
+      ]
+    },
+    {
+      "login": "cjilbert504",
+      "name": "cjilbert504",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54157657?v=4",
+      "profile": "https://github.com/cjilbert504",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "shotgun",
+  "projectOwner": "andrewmcodes",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
