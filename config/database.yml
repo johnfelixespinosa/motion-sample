@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: CHANGEME_development
+  database: motion_sample_development
 
 test:
   <<: *default
-  database: CHANGEME_test
+  database: motion_sample_test
 
 production:
   <<: *default
-  database: CHANGEME_production
+  database: motion_sample_production
