@@ -164,6 +164,9 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     model_probe (1.0.7)
+    motion (0.4.0)
+      nokogiri
+      rails (>= 5.2)
     msgpack (1.3.3)
     multi_json (1.15.0)
     multi_xml (0.6.0)
@@ -412,6 +415,7 @@ DEPENDENCIES
   listen (~> 3.1, < 3.2)
   lol_dba (~> 2.2)
   model_probe (~> 1.0)
+  motion
   name_of_person (~> 1.1)
   ngrok-tunnel
   omniauth-github (~> 1.4)

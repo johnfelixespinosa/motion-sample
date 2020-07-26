@@ -1106,6 +1106,14 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@unabridged/motion@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@unabridged/motion/-/motion-0.4.0.tgz#ef06e94289bd1f760dda447748dd69dc6fde5bf9"
+  integrity sha512-SSqZuaM2RlzJekIqHnXBMACAr1qgCsbLonemCGM50z3e+IWucNFXdi+rMGdwUVRtEh6/XC0p2yi8pSYBJnOC9Q==
+  dependencies:
+    "@rails/actioncable" ">= 6.0"
+    morphdom "^2.6.1"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
