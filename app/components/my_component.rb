@@ -3,20 +3,22 @@ class MyComponent < ViewComponent::Base
 
   attr_reader :total
 
-  def initialize(total: 0)
-    @total = 0
+  COUNTRIES = ["USA", "France", "Canada"]
+
+  def initialize(country: "")
+    @country = ""
   end
 
   # map_motion :add, :reset    WHY THIS DONT WORK DREW ¯\_(ツ)_/¯
-  map_motion :add
+  map_motion :born
   map_motion :reset
 
-  def add
-    @total += 1
+  def born
+    @country = COUNTRIES.sample
   end
 
   def reset
-    @total = 0
+    @country = ""
   end
 
 end
